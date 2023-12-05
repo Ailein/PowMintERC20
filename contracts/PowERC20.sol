@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/access/Ownable2Step.sol";
 
 contract PowERC20 is ERC20Capped, Ownable2Step {
     uint256 public price;
-    bytes workc;
+    bytes public workc;
     uint256 public limitPerMint;
     bytes32 public prevHash;
 
